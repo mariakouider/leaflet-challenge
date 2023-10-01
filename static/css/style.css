@@ -1,0 +1,33 @@
+/* Remove the default margin and padding from the body. */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Wants screensize set up */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* .info.legend {
+  background-color: white;
+} */ 
+
+/* text */
+.legend {
+  line-height: 18px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Legend */
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+}
